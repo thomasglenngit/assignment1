@@ -1,7 +1,7 @@
-// import java.io.*;
-// import java.util.Scanner;
+import java.io.*;
+import java.util.Scanner;
 
-public class hw1_Q5
+public class hw1_Q6
 {
   public static void main(String[] args) throws IOException
   {
@@ -57,22 +57,6 @@ public class hw1_Q5
   //please finish the following function
     private static void selectionSort(int[] A, int n)
     {
-     int small;
-
-     for (int i = 0; i < n - 1; i++)
-      {
-        small = i;
-        for (int j = i + 1; i < n; i++)
-        {
-          if (A[j] < A[small])
-          { 
-            small = j;
-
-            int switch = A[i];
-            A[i] = A[small];
-            A[small] = switch;
-          }
-        }
-      }
+     
     }
 }
